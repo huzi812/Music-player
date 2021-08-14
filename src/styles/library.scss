@@ -1,0 +1,23 @@
+.library{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(254, 254, 255);
+   box-shadow: 2px 2px 50px rgb(223, 213, 213);
+   overflow-y: scroll;
+   
+    .library-songs{
+       display: flex;
+      
+     align-items: center;
+       padding: 1rem;
+        img{
+            width: 10vh;
+        }
+      .song-description{
+          padding: 1rem;
+      }
+    }
+}

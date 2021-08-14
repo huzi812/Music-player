@@ -7,5 +7,8 @@
 h1,h2,h3{
     color: rgb(58, 58, 58)
 }
+
+
+@import './library.scss';
 @import "./player";
 @import "./song";
