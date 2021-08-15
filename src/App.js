@@ -9,7 +9,7 @@ import Library from './componenets/Library';
 function App() {
   //state
   const [songs, setSongs] = useState(data());
-  const [currentSong, setcurrentSong] = useState(songs[0]);
+  const [currentSong, setCurrentSong] = useState(songs[0]);
  
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Song currentSong={currentSong} />
       <Player isPlaying={isPlaying} setIsPlaying={setIsPlaying} currentSong={currentSong} />
-      < Library songs={songs} />
+      < Library setCurrentSong={setCurrentSong} songs={songs} />
     </div>
   );
 }

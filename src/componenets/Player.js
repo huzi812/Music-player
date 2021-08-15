@@ -53,7 +53,7 @@ const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
 
             <div className="play-control">
                 <FontAwesomeIcon size='2x' className="skipBack" icon={faAngleLeft} />
-                <FontAwesomeIcon onClick={playSongHandler} size='2x' className="play" icon={isPlaying ? faPlay :faPause} />
+                <FontAwesomeIcon onClick={playSongHandler} size='2x' className="play" icon={isPlaying ? faPause :faPlay} />
                 <FontAwesomeIcon size='2x' className="skipForward" icon={faAngleRight} />
 
                 <audio onTimeUpdate={timeUpdateHandler}
